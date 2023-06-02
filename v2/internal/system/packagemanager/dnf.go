@@ -43,6 +43,7 @@ func (y *Dnf) Packages() packagemap {
 			{Name: "pkgconf-pkg-config", SystemPackage: true},
 		},
 		"npm": []*Package{
+			{Name: "nodejs-npm", SystemPackage: true},
 			{Name: "npm", SystemPackage: true},
 		},
 		"upx": []*Package{
